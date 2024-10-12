@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file -->
+    <title>Calculator</title>
+</head>
+<body>
+    <h1 class="beautiful-heading">Muhib's Calculator</h1>
+    <div class="calculator">
+        <div class="calculator__wrap">
+            <div class="calculator__display" id="screen">0</div>
+            <div class="calculator__functions">
+                <button onclick="getValue('C')" class="btn--opaque btn--ac">AC</button>
+                <button onclick="getValue('back')" class="btn--del">Del </button>
+                <button onclick="getValue('%')">%</button>
+                <button onclick="getValue('/')">/</button>
+                <button onclick="getValue('7')">7</button>
+                <button onclick="getValue('8')">8</button>
+                <button onclick="getValue('9')">9</button>
+                <button onclick="getValue('*')" class="btn--opaque">*</button>
+                <button onclick="getValue('4')">4</button>
+                <button onclick="getValue('5')">5</button>
+                <button onclick="getValue('6')">6</button>
+                <button onclick="getValue('-')" class="btn--opaque">-</button>
+                <button onclick="getValue('1')">1</button>
+                <button onclick="getValue('2')">2</button>
+                <button onclick="getValue('3')">3</button>
+                <button onclick="getValue('+')" class="btn--opaque">+</button>
+                <button onclick="getValue('0')" class="btn--large">0</button>
+                <button onclick="getValue('.')">.</button>
+                <button onclick="getValue('=')" class="btn--opaque">=</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="Calculator.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
